@@ -1,8 +1,14 @@
 fastapi
 uvicorn
 streamlit
+python-dotenv
 selenium
+webdriver-manager
 langchain
 langchain-community
+langchain-core
+langchain-groq
+langchain-huggingface
+langchain-chroma
+sentence-transformers
 chromadb
-webdriver-manager
