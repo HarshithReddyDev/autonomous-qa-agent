@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# Environment Variables (Secrets)
+.env
+
+# Local Databases
+chroma_db/
+chroma_db_data/
+
+# OS Junk
+.DS_Store

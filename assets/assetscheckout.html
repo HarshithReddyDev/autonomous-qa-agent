@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>OceanAI Shop</title>
+</head>
+<body>
+    <h1>OceanAI Checkout</h1>
+    <div id="cart">
+        <input type="text" id="discount-code" placeholder="Discount Code">
+        <button id="apply-btn">Apply</button>
+        <span id="msg"></span>
+    </div>
+    <form id="checkout">
+        <input type="text" id="name" placeholder="Name">
+        <input type="email" id="email" placeholder="Email">
+        <button type="button" id="pay-btn">Pay Now</button>
+    </form>
+    <script>
+        document.getElementById('apply-btn').onclick = () => {
+            const code = document.getElementById('discount-code').value;
+            document.getElementById('msg').innerText = code === 'SAVE15' ? 'Discount Applied' : 'Invalid Code';
+        };
+    </script>
+</body>
+</html>
